@@ -1,3 +1,15 @@
+% We found a controller using PID Tuner that, according to the software, 
+% meets all our requirements. The purpose of this code is to take the 
+% controller we found and test it against the model to extract the values. 
+%
+% Unfortunately, we discovered that the controller does not meet the 
+% conditions, and the closed-loop system has an unstable pole. 
+% However, because the pole is very large, PID Tuner software failed 
+% to handle it and ignored it. 
+%
+% Obviously, this is not acceptable, and the controller does not 
+% actually meet the requirements.
+
 %%%% our phisical parameters: %%%%
 g = 9.8; % Gravity [m/s^2]
 b_f = 0; % Friction coefficient
