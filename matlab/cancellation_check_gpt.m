@@ -1,3 +1,7 @@
+% check if there is pole-zero cancellation wich is not allowed
+% and makes problems in real life control
+% This code was written by ChatGPT
+
 % Define the state-space matrices based on your system parameters
 A = [0 1 0 0;
      0 -((params.K_e * params.K_t) / params.R_m + params.b_f) / params.l_w params.m_b * params.l_b * params.g / params.I_b 0;
