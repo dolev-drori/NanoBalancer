@@ -1,4 +1,4 @@
-
+% arkadis' controller wich applied on the real robot and works
 
 P = 1.75;
 D = 0.15;
