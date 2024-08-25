@@ -1,3 +1,10 @@
+% The following code is intended to compare the findings 
+% of our mathematical model of the robot with those of a 
+% paper on a similar robot. The goal is to understand if 
+% they are of the same order of magnitude and to identify 
+% any physical parameters that may be incorrect due to our 
+% measurements.
+
 %%%% our phisical parameters: %%%%
 g = 9.8; % Gravity [m/s^2]
 b_f = 0; % Friction coefficient
