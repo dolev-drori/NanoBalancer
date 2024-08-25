@@ -1,3 +1,10 @@
+% The following calculation is for the system's sensitivity. 
+% We altered the values of the physical coefficients we measured by 10% 
+% and examined all possible variations of changes in several parameters 
+% to see how they affect the final system. 
+% The following code includes all possible variations, 
+% and it is evident that the system has significant sensitivity.
+
 % Initial parameters
 params = struct(...
     'g', 9.8, ...
