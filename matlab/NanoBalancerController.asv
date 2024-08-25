@@ -1,0 +1,11 @@
+
+
+P = 1.75;
+D = 0.15;
+I=0.1;
+N = 50;
+s = tf('s');
+Controller = P+(I/s)+D*(N/(1+(N/s)));
+L = 
+T=L*Controller*12/(1+L*Controller*12)
+p = pole(T);
