@@ -1,3 +1,10 @@
+% The following calculation is for the system's sensitivity. 
+% We altered the values of the physical coefficients we measured by 10% 
+% and examined different variations of changes in several parameters 
+% to see how they affect the final system. 
+% The following code does not include all possible variations, 
+% but it is evident that the system has significant sensitivity.
+
 %%%% our phisical parameters: %%%%
 params = struct(...
 'g', 9.8, ... % Gravity [m/s^2]
