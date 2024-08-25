@@ -1,3 +1,5 @@
+% check if there is pole-zero cancellation wich is not allowed and makes problems in real life control
+
 %%%% our phisical parameters: %%%%
 g = 9.8; % Gravity [m/s^2]
 b_f = 0; % Friction coefficient
